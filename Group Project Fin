@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The Fossil Fuel Crisis</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <nav>
+        <ul>
+            <li><a href="#introduction">Introduction</a></li>
+            <li><a href="#impact">Impact</a></li>
+            <li><a href="#dependence">Dependence</a></li>
+            <li><a href="#alternatives">Alternatives</a></li>
+            <li><a href="#action">Take Action</a></li>
+        </ul>
+    </nav>
+    <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+    </label>
+
+    <header id="home">
+        <div class="overlay">
+            <h1>The Fossil Fuel Crisis</h1>
+            <p>Understanding the consequences and exploring sustainable solutions</p>
+            <a href="#introduction" class="btn">Learn More</a>
+        </div>
+    </header>
+
+    <section id="introduction">
+        <h2>What are Fossil Fuels?</h2>
+        <p>Explanation of fossil fuels (coal, oil, natural gas), how they are formed, and their widespread use in the
+            modern world.</p>
+    </section>
+
+    <section id="impact">
+        <h2>The Environmental and Human Costs</h2>
+        <p>Details about climate change, air and water pollution, and human health effects caused by fossil fuels.</p>
+    </section>
+
+    <section id="dependence">
+        <h2>Why Do We Still Rely on Fossil Fuels?</h2>
+        <p>Discussion on the role of fossil fuels in energy production, economic factors, and challenges in shifting to
+            renewables.</p>
+    </section>
+
+    <section id="alternatives">
+        <h2>Moving Towards Renewable Energy</h2>
+        <p>Information about solar power, wind power, hydropower, and other renewable energy sources.</p>
+    </section>
+
+    <section id="action">
+        <h2>Taking Action for a Sustainable Future</h2>
+        <p>Ways individuals can reduce fossil fuel consumption and support renewable initiatives.</p>
+        <a href="#" class="btn">Join the Movement</a>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Environmental Protection</p>
+    </footer>
+
+</body>
+
+</html>
